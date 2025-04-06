@@ -21,8 +21,8 @@ A full-stack User Management System built with Node.js, Express, Sequelize, and 
 
 
 1. Clone the repository
-    git clone https://github.com/mikyllatherese/user-management-system.git
-    cd user-management-system
+    git clone https://github.com/mikyllatherese/user-management-system-backend.git
+    cd user-management-system-backend
 
 2. Install backend dependencies
     npm install
