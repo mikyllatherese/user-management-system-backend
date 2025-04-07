@@ -1,23 +1,19 @@
 {
-  "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "Raffff",
+    "password": "rcaballero1",
+    "database": "node-mysql-signup-verification-api"
   },
-  "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+  "secret": "YOUR_OWN_STRONG_AND_UNIQUE_SECRET_KEY",
+  "emailFrom": "info@example.com",
+  "smtpOptions": {
+    "host": "smtp.ethereal.email",
+    "port": 587,
+    "auth": {
+      "user": "kevin.klein73@ethereal.email",
+      "pass": "DURYMx1bbUfVaeJmJ2"
+    }
   }
 }
